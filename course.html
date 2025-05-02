@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subjects offered in Roots Academy</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-----google fonts-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+    <script src="https://kit.fontawesome.com/d7d21caf6d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a class="logo title" href="index.html">ROOTS</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-times menu" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars menu" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!--------courses------->
+
+    <section class="course">
+        <h1>Curriculum</h1>
+        <p>Here are a list of subjects offered in our schools</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Roots Academy</h3>
+                <h4>Playgroup-PP2 & Grade 1-6</h4>
+                <p>
+                <ul class="style">
+                    <li>Mathematics</li>
+                    <li>English</li>
+                    <li>Kiswahili</li>
+                    <li>Social Studies</li>
+                    <li>Christain Religious Education</li>
+                    <li>Science</li>
+                    <li>French</li>
+                    <li>Computer</li>
+                    <li>Chinesse</li>
+                    <li>We also offer Taekwondo classes</li>
+                </ul>
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Roots Junior</h3>
+                <h4>Grade 7-9</h4>
+                <p>
+                <ul class="style">
+                    <li>Computer Science</li>
+                    <li>Agriculture</li>
+                    <li>Homescience</li>
+                    <li>Integrated Science</li>
+                    <li>English</li>
+                    <li>Business Studies</li>
+                    <li>Performing Arts</li>
+                    <li>Visual Arts</li>
+                    <li>Life Skills</li>
+                    <li>Mathematics</li>
+                    <li>English</li>
+                    <li>Kiswahili</li>
+                    <li>Pre-technical</li>
+                    <li>French</li>
+                    <li>Physical Education and Sports</li>
+                    <li>Social Studies</li>
+                    <li>Christian Religious Education</li>
+                    <li>Health Education</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--------Facilities------->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Our institution is equipped with a range of exceptional facilities, meticulously designed to
+            provide an immersive and enriching experience.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/lab.jpg" alt="roots academy computer lab">
+                <h3>Computer Lab</h3>
+                <p>We recognize the vital role of technology in today's fast-paced world. That's why we
+                    take immense pride in our state-of-the-art computer lab, designed to provide students
+                    with a dynamic and immersive learning experience. Step into our computer lab and embark
+                    on a journey where innovation meets education.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/lib.jfif" alt="roots academy library">
+                <h3>Library</h3>
+                <p>we believe in nurturing a love for reading and lifelong learning. Our library serves as
+                    a haven for students, a place where imagination takes flight and knowledge knows no
+                    bounds. In our library, we embark on a captivating journey of exploration,
+                    discovery, and personal growth.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/pool.jpg" alt="roots academy swimming pool">
+                <h3>Swimming Pool</h3>
+                <p>In Roots Academy, we understand the importance of providing a well-rounded education that
+                    goes beyond the classroom. That's why we take immense pride in our state-of-the-art
+                    swimming pool, designed to offer students a refreshing and invigorating aquatic
+                    experience.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--------Footer------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>"Connect with Roots Academy: Your Path to Excellence"
+            <br>Discover the endless possibilities that await at Roots Academy, where excellence is nurtured and dreams
+            come alive.
+        </p>
+        <div class="icon">
+            <a href="https://www.facebook.com/Rootsacademylearntoprosper/" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/roots_academy_?lang=en" target="_blank"><i
+                    class="fa-brands fa-twitter"></i></a>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by DevMaina</p>
+    </section>
+
+
+    <!--------Javascript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>

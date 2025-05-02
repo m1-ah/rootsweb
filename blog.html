@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roots Academy Fees Structure | uniform</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-----google fonts-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+    <script src="https://kit.fontawesome.com/d7d21caf6d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a class="logo title" href="index.html">ROOTS</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-times menu" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars menu" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Uniforms and Fees Structure</h1>
+    </section>
+
+    <!--------blog page content------->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog">
+                <img src="images/rootsuni.jpg" alt="roots academy uniform">
+                <figcaption class="captions">Roots Academy Uniform</figcaption>
+                <p>Roots Academy, a mixed day & boarding school, is an esteemed institution dedicated to nurturing young
+                    minds and
+                    empowering students from Playgroup to Grade 6. Our academy is committed to providing a
+                    comprehensive and transformative educational experience that lays a strong foundation
+                    for future success.</p>
+
+                <p>We understand the importance of early education in shaping a child's
+                    growth and development. Our curriculum is thoughtfully designed to foster academic
+                    excellence, creativity, and personal growth. As a parent, you can trust that your child's
+                    educational
+                    journey at Roots Academy will be guided by commmitted, experienced and dedicated educators</p>
+
+                <p>We invite you to join us at Roots Academy, where we lay the roots for a successful
+                    future, one filled with knowledge, creativity, and endless possibilities. Together,
+                    let's shape the minds of tomorrow's leaders and empower them to reach new heights.</p>
+                <a class="fees" href="images/FEE-STRUCTURE.pdf">OUR FEES STRUCTURE & REQUIREMENTS</a>
+
+            </div>
+            <div class="blog">
+                <img src="images/junsecAuni.jpg" alt="roots junior secondary uniform">
+                <figcaption class="captions">Roots Junior Secondary Uniform</figcaption>
+                <p>Roots Junior Secondary School, a mixed boarding school, is an esteemed institution dedicated to
+                    fostering academic
+                    excellence and personal growth for students in grades 7 to 9. Our school provides a
+                    dynamic and engaging learning environment that prepares students for the challenges
+                    and opportunities that lie ahead.</p>
+
+                <p>We understand the critical transition period from
+                    primary to secondary education. Our comprehensive curriculum is designed to support
+                    students in navigating this phase successfully, ensuring a seamless transition while
+                    building a strong foundation for their future academic pursuits.</p>
+
+                <p>Join us at Roots Junior Secondary School, where we lay the foundation for academic
+                    success, personal growth, and the development of well-rounded individuals. Together,
+                    let's empower our students to embrace their potential, excel academically, and
+                    become compassionate and responsible global citizens.</p>
+                <a class="fees" href="images/feesjunsec.png">OUR FEES STRUCTURE</a>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="comment-box">
+        <h3>Leave a Comment</h3>
+
+        <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <textarea rows="5" placeholder="Enter Comment Here"></textarea>
+            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+        </form>
+    </div>
+
+
+    <!--------Footer------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>"Connect with Roots Academy: Your Path to Excellence"
+            <br>Discover the endless possibilities that await at Roots Academy, where excellence is nurtured and dreams
+            come alive.
+        </p>
+        <div class="icon">
+            <a href="https://www.facebook.com/Rootsacademylearntoprosper/" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/roots_academy_?lang=en" target="_blank"><i
+                    class="fa-brands fa-twitter"></i></a>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by DevMaina</p>
+    </section>
+
+
+    <!--------Javascript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>

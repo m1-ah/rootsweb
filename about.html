@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Roots Academy?</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-----google fonts-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+    <script src="https://kit.fontawesome.com/d7d21caf6d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a class="logo title" href="index.html">ROOTS</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-times menu" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars menu" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+
+    <!--------about us content------->
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are one among the most respected schools</h1>
+                <p>Welcome to Roots Academy, where learning becomes an extraordinary journey of growth and
+                    self-discovery. Nestled amidst lush greenery, our school provides a nurturing environment
+                    that empowers students to flourish academically, creatively, and personally.
+                    At Roots Academy, we believe in cultivating future leaders who possess not only knowledge
+                    but also the critical skills and mindset necessary to thrive in a rapidly evolving world.</p>
+
+                <ul>
+                    <li><b>Unleashing the Power of Curiosity:</b>
+                        At Roots Academy, curiosity is our driving force. We understand that education is not merely
+                        about imparting facts but rather about igniting a lifelong passion for learning.</li>
+
+                    <li><b>Nurturing Creativity and Innovation:</b>
+                        We celebrate and nurture the unique talents and abilities of our students, whether they lie
+                        in the arts,
+                        sciences, or humanities. Our facilities are designed to inspire innovation and experimentation.
+                    </li>
+
+                    <li><b>Empowering Global Citizens:</b>
+                        In an interconnected world, it is vital for students to become global citizens who are
+                        compassionate, culturally aware, and equipped to make a positive impact. At Roots Academy,
+                        we strive to broaden horizons and foster an appreciation for diversity. Through experiential
+                        learning programs, community service initiatives, and collaborations with schools worldwide,
+                        we empower our students to embrace different perspectives, forge meaningful connections,
+                        and become ambassadors of positive change.</li>
+
+                    <li><b>Holistic Development:</b>
+                        Education at Roots Academy goes beyond academics. We believe in nurturing well-rounded
+                        individuals who are not only intellectually sharp but also emotionally resilient and
+                        physically active. Our comprehensive curriculum includes a wide range of extracurricular
+                        activities, sports, and clubs that cater to diverse interests and talents. By emphasizing
+                        holistic development, we enable our students to develop essential life skills such as
+                        teamwork, leadership, and time management, preparing them for success in all spheres of life.
+                    </li>
+
+                    <li><b>Building a Supportive Community:</b>
+                        Roots Academy is not just a school; it is a vibrant community where students, parents,
+                        teachers, and staff come together to create a nurturing and supportive environment. We
+                        believe that strong partnerships between home and school are crucial for the holistic
+                        growth of each child. Through regular communication, parent involvement, and open-door
+                        policies, we foster strong relationships and provide a network of support for students,
+                        ensuring their overall well-being.</li>
+                </ul>
+
+                <p>We are dedicated to cultivating future leaders who will shape the
+                    world with their knowledge, creativity, and compassion. Our commitment to excellence
+                    in education, coupled with our nurturing environment and holistic approach, sets us apart.
+                    Join us on this extraordinary journey of growth and empowerment, and witness your child's
+                    potential blossom at Roots Academy. Together, let's unlock a future full of possibilities</p>
+                <a href="index.html" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/Screenshot_20230605_114952_Facebook.jpg" alt="roots academy staff">
+                <figcaption class="captions">Our Visionary Drive Force</figcaption>
+                <img src="images/scout.jpg" alt="roots academy scout">
+                <figcaption class="captions">Honoured to have a Scout & Band team</figcaption>
+                <img src="images/act.jpg" alt="roots academy sports">
+                <figcaption class="captions">Sports activities</figcaption>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--------Footer------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>"Connect with Roots Academy: Your Path to Excellence"
+            <br>Discover the endless possibilities that await at Roots Academy, where excellence is nurtured and dreams
+            come alive.
+        </p>
+        <div class="icon">
+            <a href="https://www.facebook.com/Rootsacademylearntoprosper/" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/roots_academy_?lang=en" target="_blank"><i
+                    class="fa-brands fa-twitter"></i></a>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by DevMaina</p>
+    </section>
+
+
+    <!--------Javascript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
