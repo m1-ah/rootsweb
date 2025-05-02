@@ -14,7 +14,6 @@ RootsWeb is a responsive, modern, and dynamic school website designed to provide
 ## 🛠️ Technologies Used
 
 - HTML5, CSS3, JavaScript
-- Bootstrap 5
 - PHP (backend)
 - Responsive design principles
 
